@@ -22,3 +22,5 @@ set_prop(platform_app, theme_prop)
 get_prop(platform_app, spectrum_prop)
 set_prop(platform_app, spectrum_prop)
 
+# Allow PowerShare HAL service to be found
+hal_client_domain(platform_app, hal_lineage_powershare)
