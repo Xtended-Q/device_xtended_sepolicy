@@ -1,5 +1,3 @@
-allow priv_app ota_package_file:dir create_dir_perms;
-
 # Allow Settings to read and set theme_prop
 get_prop(priv_app, theme_prop)
 set_prop(priv_app, theme_prop)
@@ -7,4 +5,3 @@ set_prop(priv_app, theme_prop)
 # Allow Settings to read spectrum_prop
 get_prop(priv_app, spectrum_prop)
 set_prop(priv_app, spectrum_prop)
-
